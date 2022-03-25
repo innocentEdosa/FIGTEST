@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-gap: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    grid-gap: 3.2rem;
+  }
+}

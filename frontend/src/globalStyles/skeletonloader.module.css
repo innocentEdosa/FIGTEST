@@ -1,0 +1,50 @@
+.loaderWrapper > .loaderItem,
+.loader {
+  background: var(--bg-grey-02);
+  user-select: none;
+  cursor: wait;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-regular);
+}
+
+.loaderItem.small {
+  width: 85%;
+}
+
+.loaderRounded {
+  border-radius: var(--border-radius-large) !important;
+}
+
+.loaderWrapper .loaderItem *,
+.loader * {
+  visibility: hidden;
+}
+
+.loaderWrapper .loaderItem:empty::after,
+.loader:empty::after,
+.loaderWrapper .loaderItem *:empty::after,
+.loader *:empty::after {
+  content: '\00a0';
+}
+
+.loader:before {
+  content: '';
+  width: 2%;
+  height: 200%;
+  top: -25%;
+  box-shadow: 0 0 24px 16px rgba(255, 255, 255, 0.2);
+  transform: translateX(0) rotate(25deg);
+  background: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  animation: loader 2s infinite both;
+}
+
+@keyframes loader {
+  0% {
+    transform: translateX(-25%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(6500%) rotate(25deg);
+  }
+}

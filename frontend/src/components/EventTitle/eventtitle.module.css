@@ -1,0 +1,5 @@
+.eventTitle {
+  font: var(--font-weight-bold) 2rem / 1.6rem var(--font-primary);
+  color: var(--text-primary-dark);
+  margin: 1.6rem 0rem;
+}

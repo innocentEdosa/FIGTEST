@@ -1,0 +1,7 @@
+.eventList {
+  grid-auto-flow: dense;
+}
+
+.eventListItem {
+  grid-column: span 6;
+}

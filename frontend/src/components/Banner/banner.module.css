@@ -1,0 +1,23 @@
+.banner {
+  background-image: url('https://res.cloudinary.com/dqw7jnfgo/image/upload/e_anti_removal,q_10/v1648158845/pexels-maria-orlova-4947140.jpg');
+  background-color: var(--bg-primary-orange);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 55rem;
+}
+
+.bannerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bannerAside {
+  background-color: white;
+  padding: 4rem;
+  border-radius: var(--border-radius-medium);
+}
+.bannerLead {
+  font: var(--font-weight-bold) 4rem / 3.2rem var(--font-primary);
+  margin-bottom: 2rem;
+}

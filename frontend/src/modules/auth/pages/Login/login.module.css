@@ -1,0 +1,32 @@
+.loginWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.loginLead {
+  margin-bottom: 3rem;
+}
+
+.loginButtonWrapper {
+  margin-top: 2rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 48rem;
+}
+
+.links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--text-primary-error);
+}

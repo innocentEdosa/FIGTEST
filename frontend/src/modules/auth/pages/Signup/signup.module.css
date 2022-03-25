@@ -1,0 +1,45 @@
+.signupWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.signupLead {
+  margin-bottom: 3rem;
+}
+
+.signupButtonWrapper {
+  margin-top: 2rem;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 48rem;
+}
+
+.links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.categoryWrapper {
+  display: flex;
+}
+
+.categoryItem {
+  color: var(--text-primary-accent);
+}
+
+.categoryItem:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.error {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--text-primary-error);
+}

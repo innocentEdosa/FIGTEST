@@ -1,0 +1,31 @@
+.eventCardAside {
+  margin-bottom: 3rem;
+  position: relative;
+  min-height: 36rem;
+  padding: 3rem;
+  border-radius: var(--border-radius-medium);
+}
+
+.eventCardDate,
+.eventCardType {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 8rem;
+  height: 8rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-medium);
+  color: var(--text-primary-white);
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-medium);
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.eventCardType {
+  bottom: 2rem;
+  right: 2rem;
+  width: auto;
+  padding: 0.5rem 2rem;
+  height: auto;
+}

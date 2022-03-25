@@ -1,0 +1,32 @@
+:root {
+  /* background colors */
+  --bg-primary-accent: #d10068;
+  --text-primary-error: #ff0000;
+  --bg-primary-dark: #292929;
+  --bg-primary-orange: #da6334;
+  --bg-primary-grey: #dbdbdb;
+  --bg-primary-white: #fff;
+  --bg-black: #000;
+
+  /* text colors */
+  --text-primary-accent: var(--bg-primary-accent);
+  --text-primary-dark: var(--bg-primary-dark);
+  --text-primary-white: var(--bg-primary-white);
+
+  /* fonts */
+  --font-primary: 'Fira Sans', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* sizes */
+  --max-inner-content-width: 1256px;
+
+  /* borders */
+  --border-radius-regular: 4px;
+  --border-radius-medium: 8px;
+
+  /* z-index */
+  --z-index-navigation: 99;
+  --z-index-dropdown: 100;
+}

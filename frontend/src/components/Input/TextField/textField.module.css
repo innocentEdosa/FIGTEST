@@ -1,0 +1,11 @@
+.textField {
+  outline: none;
+  border: 1px solid var(--bg-primary-dark);
+  height: 4.8rem;
+  border-radius: var(--border-radius-regular);
+  padding: 2rem;
+  color: var(--text-primary-dark);
+  margin-bottom: 1.2rem;
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+}
