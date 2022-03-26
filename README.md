@@ -1,1 +1,1 @@
-See README.md in each folder for more infomation
+Each folder has its own README.md. Tada!!!
